@@ -1,3 +1,14 @@
+Hello All , just started working on react ,THe project contain a simple static website on react for developer point of view , it contain basic routing and data manipulating 
+
+## Instructions
+
+1.download this <br> 
+2.go into the root directory resort/ <br> 
+3.hit npm start . <br>
+4.open your browser <br>
+
+I will keep be contributing further on this repo till the project is finished , feel free to fork ! 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
