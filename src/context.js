@@ -26,7 +26,7 @@ class RoomProvider extends Component {
         return room;
     }
 
-    format(items){
+    format(items){ 
         let tempItems = items.map(item=>{
             let id = item.sys.id;
             let images = item.fields.images.map(a=>{
@@ -46,7 +46,16 @@ class RoomProvider extends Component {
         )
     }
 }
-
 const RoomConsumer = RoomContext.Consumer;
+
+export function withRoomConsumer(Component)
+{
+    return function ConsumerWrapper(props){
+        return <RoomConsumer>
+            {value => <Component {...props}  context={value} />}
+        </RoomConsumer>
+    }
+}
+
 
 export {RoomProvider,RoomConsumer,RoomContext}

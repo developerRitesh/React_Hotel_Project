@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import defaultImg from "../images/room-1.jpeg";
 
-
 export default function Room({room}) {
     const {name,slug,images,price} = room;
     return (
