@@ -1,4 +1,9 @@
-Hello All , just started working on react ,THe project contain a simple static website on react for developer point of view , it contain basic routing and data manipulating 
+Hello All , just started working on react ,THe project contain a simple static website on react for developer point of view , it contain basic routing and data manipulating . I will continue to work on it and add other functionality for the fellow developers , cheers ! 
+
+## click here to view the website 
+
+https://riteshhotelbooking.herokuapp.com/
+
 
 ## Instructions
 
